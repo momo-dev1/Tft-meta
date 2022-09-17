@@ -183,7 +183,8 @@ export const champion = [
     item: {
       name: 'Statikk Shiv',
       ratio: '6.52%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {
@@ -196,7 +197,8 @@ export const champion = [
     item: {
       name: 'Banshee’s Claw',
       ratio: '4.98%',
-      src: '//cdn.lolchess.gg/upload/images/items/Backhand_1659422926-Backhand_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/Backhand_1659422926-Backhand_80.jpg',
+      combination:itemsName.Banshee
     }
   }]
   ], [{
@@ -214,7 +216,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '10.27%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -326,7 +329,8 @@ export const champion = [
     item: {
       name: 'Statikk Shiv',
       ratio: '8.90%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {
@@ -372,13 +376,15 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '5.21%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
       name: "Thief's Gloves",
       ratio: '5.14%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
@@ -403,7 +409,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '15.96%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -442,7 +449,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '12.44%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -469,7 +477,8 @@ export const champion = [
     item: {
       name: "Thief's Gloves",
       ratio: '4.12%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }]
   ], [{
@@ -507,7 +516,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '6.51%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }]
   ], [{
@@ -525,13 +535,15 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '6.48%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
       name: "Thief's Gloves",
       ratio: '4.43%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
@@ -544,7 +556,8 @@ export const champion = [
     item: {
       name: "Zz'Rot Portal",
       ratio: '4.17%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }]
   ], [{
@@ -576,13 +589,15 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '5.87%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
       name: "Thief's Gloves",
       ratio: '4.16%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }]
   ], [{
@@ -593,7 +608,8 @@ export const champion = [
     item: {
       name: 'Statikk Shiv',
       ratio: '13.91%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {
@@ -639,13 +655,15 @@ export const champion = [
     item: {
       name: 'Shroud of Stillness',
       ratio: '9.87%',
-      src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png',
+      combination:itemsName.Shroud
     }
   }, {
     item: {
       name: 'Statikk Shiv',
       ratio: '7.94%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {
@@ -691,7 +709,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '6.17%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -716,13 +735,15 @@ export const champion = [
     item: {
       name: "Zz'Rot Portal",
       ratio: '6.76%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }, {
     item: {
       name: "Protector's Vow",
       ratio: '6.44%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -735,7 +756,8 @@ export const champion = [
     item: {
       name: 'Shroud of Stillness',
       ratio: '4.98%',
-      src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png',
+      combination:itemsName.Shroud
     }
   }]
   ], [{
@@ -753,7 +775,8 @@ export const champion = [
     item: {
       name: "Thief's Gloves",
       ratio: '5.45%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
@@ -773,7 +796,8 @@ export const champion = [
     item: {
       name: 'Shroud of Stillness',
       ratio: '4.26%',
-      src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png',
+      combination:itemsName.Shroud
     }
   }]
   ], [{
@@ -824,7 +848,8 @@ export const champion = [
     item: {
       name: "Zz'Rot Portal",
       ratio: '21.29%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }, {
     item: {
@@ -844,7 +869,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '6.55%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -869,19 +895,22 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '6.39%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
       name: "Zz'Rot Portal",
       ratio: '5.64%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }, {
     item: {
       name: "Thief's Gloves",
       ratio: '4.83%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
@@ -913,19 +942,22 @@ export const champion = [
     item: {
       name: 'Deathblade',
       ratio: '6.98%',
-      src: '//cdn.lolchess.gg/upload/images/items/LordsEdge_1658738758-LordsEdge_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/LordsEdge_1658738758-LordsEdge_80.jpg',
+      combination:itemsName.Deathblade
     }
   }, {
     item: {
       name: 'Bloodthirster',
       ratio: '5.01%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
       name: "Thief's Gloves",
       ratio: '4.80%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }]
   ], [{
@@ -943,7 +975,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '9.18%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -1015,7 +1048,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '14.41%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -1054,7 +1088,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '15.72%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -1100,7 +1135,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '11.62%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -1120,7 +1156,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '3.99%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }]
   ], [{
@@ -1145,7 +1182,8 @@ export const champion = [
     item: {
       name: 'Shroud of Stillness',
       ratio: '4.54%',
-      src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png',
+      combination:itemsName.Shroud
     }
   }, {
     item: {
@@ -1157,7 +1195,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '3.46%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }]
   ], [{
@@ -1175,25 +1214,29 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '5.76%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
       name: "Thief's Gloves",
       ratio: '5.63%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
       name: 'Shroud of Stillness',
       ratio: '4.42%',
-      src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png',
+      combination:itemsName.Shroud
     }
   }, {
     item: {
       name: "Zz'Rot Portal",
       ratio: '3.93%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }]
   ], [{
@@ -1211,7 +1254,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '12.87%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -1224,7 +1268,8 @@ export const champion = [
     item: {
       name: 'Locket of the Iron Solari',
       ratio: '4.21%',
-      src: '//cdn.lolchess.gg/upload/images/items/LocketoftheIronSolari_YOaQeJjb0jXhQnypCCvBBX2TNxqgICIFAp6lyvqz.png'
+      src: '//cdn.lolchess.gg/upload/images/items/LocketoftheIronSolari_YOaQeJjb0jXhQnypCCvBBX2TNxqgICIFAp6lyvqz.png',
+      combination:itemsName.LocketSolari
     }
   }, {
     item: {
@@ -1262,7 +1307,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '3.49%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -1287,13 +1333,15 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '9.16%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
       name: "Zz'Rot Portal",
       ratio: '7.13%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }, {
     item: {
@@ -1306,7 +1354,8 @@ export const champion = [
     item: {
       name: 'Shroud of Stillness',
       ratio: '5.84%',
-      src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png',
+      combination:itemsName.Shroud
     }
   }]
   ], [{
@@ -1337,13 +1386,15 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '0.77%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
       name: 'Statikk Shiv',
       ratio: '0.52%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }]
   ], [{
@@ -1361,7 +1412,8 @@ export const champion = [
     item: {
       name: 'Statikk Shiv',
       ratio: '7.45%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {
@@ -1374,7 +1426,8 @@ export const champion = [
     item: {
       name: "Thief's Gloves",
       ratio: '5.68%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
@@ -1392,7 +1445,8 @@ export const champion = [
     item: {
       name: "Zz'Rot Portal",
       ratio: '9.97%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }, {
     item: {
@@ -1405,13 +1459,15 @@ export const champion = [
     item: {
       name: 'Shroud of Stillness',
       ratio: '5.84%',
-      src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Shroud_EgjmR23WSHz0nbvbfOk5UYUAmGDsNO0iEPNjl7za.png',
+      combination:itemsName.Shroud
     }
   }, {
     item: {
       name: "Protector's Vow",
       ratio: '5.66%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -1436,7 +1492,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '10.54%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -1449,7 +1506,8 @@ export const champion = [
     item: {
       name: "Thief's Gloves",
       ratio: '4.79%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
@@ -1521,13 +1579,15 @@ export const champion = [
     item: {
       name: "Zz'Rot Portal",
       ratio: '8.17%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }, {
     item: {
       name: "Protector's Vow",
       ratio: '7.00%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -1592,7 +1652,8 @@ export const champion = [
     item: {
       name: 'Statikk Shiv',
       ratio: '6.24%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {
@@ -1624,7 +1685,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '15.98%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -1683,13 +1745,15 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '6.72%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
       name: "Zz'Rot Portal",
       ratio: '5.62%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }]
   ], [{
@@ -1707,13 +1771,15 @@ export const champion = [
     item: {
       name: "Thief's Gloves",
       ratio: '6.88%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
       name: 'Banshee’s Claw',
       ratio: '6.82%',
-      src: '//cdn.lolchess.gg/upload/images/items/Backhand_1659422926-Backhand_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/Backhand_1659422926-Backhand_80.jpg',
+      combination:itemsName.Banshee
     }
   }, {
     item: {
@@ -1766,7 +1832,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '6.28%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }]
   ], [{
@@ -1784,13 +1851,15 @@ export const champion = [
     item: {
       name: 'Statikk Shiv',
       ratio: '10.09%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {
       name: 'Banshee’s Claw',
       ratio: '8.47%',
-      src: '//cdn.lolchess.gg/upload/images/items/Backhand_1659422926-Backhand_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/Backhand_1659422926-Backhand_80.jpg',
+      combination:itemsName.Banshee
     }
   }, {
     item: {
@@ -1829,7 +1898,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '10.41%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -1875,13 +1945,15 @@ export const champion = [
     item: {
       name: 'Statikk Shiv',
       ratio: '7.41%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {
       name: 'Deathblade',
       ratio: '5.85%',
-      src: '//cdn.lolchess.gg/upload/images/items/LordsEdge_1658738758-LordsEdge_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/LordsEdge_1658738758-LordsEdge_80.jpg',
+      combination:itemsName.Deathblade
     }
   }]
   ], [{
@@ -1892,7 +1964,8 @@ export const champion = [
     item: {
       name: "Thief's Gloves",
       ratio: '9.03%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
@@ -1919,7 +1992,8 @@ export const champion = [
     item: {
       name: "Zz'Rot Portal",
       ratio: '5.16%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }]
   ], [{
@@ -1944,13 +2018,15 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '5.81%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
       name: "Zz'Rot Portal",
       ratio: '4.72%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }, {
     item: {
@@ -1968,7 +2044,8 @@ export const champion = [
     item: {
       name: 'Rapid Firecannon',
       ratio: '6.17%',
-      src: '//cdn.lolchess.gg/upload/images/items/3094_SZmtvKzywMHMFOPSyWM1jysci2VFB13EmWzpUkh1.png'
+       src: '//cdn.lolchess.gg/upload/images/items/3094_SZmtvKzywMHMFOPSyWM1jysci2VFB13EmWzpUkh1.png',
+      combination:itemsName.RapidFirecannon
     }
   }, {
     item: {
@@ -1981,7 +2058,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '5.53%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -2046,7 +2124,8 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '7.74%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
@@ -2099,19 +2178,22 @@ export const champion = [
     item: {
       name: 'Bloodthirster',
       ratio: '4.72%',
-      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png',
+      combination:itemsName.Bloodthirster
     }
   }, {
     item: {
       name: 'Rapid Firecannon',
       ratio: '4.27%',
-      src: '//cdn.lolchess.gg/upload/images/items/3094_SZmtvKzywMHMFOPSyWM1jysci2VFB13EmWzpUkh1.png'
+       src: '//cdn.lolchess.gg/upload/images/items/3094_SZmtvKzywMHMFOPSyWM1jysci2VFB13EmWzpUkh1.png',
+      combination:itemsName.RapidFirecannon
     }
   }, {
     item: {
       name: 'Statikk Shiv',
       ratio: '4.11%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }]
   ], [{
@@ -2136,13 +2218,15 @@ export const champion = [
     item: {
       name: "Zz'Rot Portal",
       ratio: '7.39%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg'
+       src: '//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1658798410-ZzRotPortal_80.jpg',
+      combination:itemsName.ZzRotPortal
     }
   }, {
     item: {
       name: "Protector's Vow",
       ratio: '6.93%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -2173,13 +2257,15 @@ export const champion = [
     item: {
       name: 'Statikk Shiv',
       ratio: '5.37%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {
       name: "Thief's Gloves",
       ratio: '5.30%',
-      src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png',
+      combination:itemsName.ThiefsGloves
     }
   }, {
     item: {
@@ -2218,7 +2304,8 @@ export const champion = [
     item: {
       name: "Protector's Vow",
       ratio: '5.06%',
-      src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png',
+      combination:itemsName.ProtectorsVow
     }
   }, {
     item: {
@@ -2243,7 +2330,8 @@ export const champion = [
     item: {
       name: 'Statikk Shiv',
       ratio: '7.57%',
-      src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png'
+       src: '//cdn.lolchess.gg/upload/images/items/StatikkShiv_1640058978.png',
+      combination:itemsName.StatikkShiv
     }
   }, {
     item: {

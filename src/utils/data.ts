@@ -39,7 +39,6 @@ export const itemsName = {
 	DragonsClaw: { base1: item.Cloak, base2: item.Cloak },
 }
 
-
 export const champion = [
   [{
     champion: 'Ao Shin',
@@ -84,7 +83,7 @@ export const champion = [
   ], [{
     champion: 'Aphelios',
     src: '//cdn.lolchess.gg/upload/images/champions/Aphelios_1661160970-Aphelios.jpg'
-  },
+},
   [{
     item: {
       name: "Zeke's Herald",
@@ -122,7 +121,7 @@ export const champion = [
     }
   }]
   ], [{
-    champion: 'Aurelion Sol',
+    champion: 'Aurelion',
     src: '//cdn.lolchess.gg/upload/images/champions/AurelionSol_1653030178.png'
   },
   [{
@@ -2397,6 +2396,3 @@ export const champion = [
   }]
   ]
 ]
-
-
-

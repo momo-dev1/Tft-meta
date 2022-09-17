@@ -16,7 +16,7 @@ const RowGrid = ({ champion, items }: any) => {
           <div className="flex sm:flex-row flex-col sm:items-center  sm:gap-3 mt-3 sm:mt-0">
             <div className="flex flex-col overflow-hidden flex-shrink-0">
               <img className="w-8 rounded-lg" src={item.src} alt="" />
-              <div className="flex items-center text-left">
+              <div className="flex items-center text-left ">
                 <span className="w-3">
                   <img
                     className="rounded-lg"
@@ -24,7 +24,9 @@ const RowGrid = ({ champion, items }: any) => {
                     alt=""
                   />
                 </span>
-                <span className="font-bold ">+</span>
+                <span className="font-bold text-[10px] sm:text-base mb-1">
+                  +
+                </span>
                 <span className="w-3">
                   <img
                     className="rounded-lg"

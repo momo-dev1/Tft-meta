@@ -1,4 +1,4 @@
-import { DataList } from "../types/repositoryTypes";
+import { DataList } from "../types/dataTypes";
 
 const RowGrid = ({ champion, items }: any) => {
   return (

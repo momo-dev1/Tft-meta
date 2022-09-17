@@ -1,3 +1,45 @@
+import { item } from "../types/dataTypes"
+
+export const itemsName = {
+	ArchangelsStaff: { base1: item.Rod, base2: item.Tear },
+	Banshee: { base1: item.Belt, base2: item.Gloves },
+	Bloodthirster: { base1: item.bfSword, base2: item.Cloak },
+	BlueBuff: { base1: item.Tear, base2: item.Tear },
+  BrambleVest: { base1: item.Vest, base2: item.Vest },
+  RageBlade: { base1: item.Rod, base2: item.Bow },
+	ChaliceOfPower: { base1: item.Cloak, base2: item.Tear },
+	Deathblade: { base1: item.bfSword, base2: item.bfSword },
+	EdgeofNight: { base1: item.bfSword, base2: item.Vest },
+	Gargoyle: { base1: item.Cloak, base2: item.Vest },
+	GiantSlayer: { base1: item.bfSword, base2: item.Bow },
+	HandOfJustice: { base1: item.Gloves, base2: item.Rod },
+	HextechGunblade: { base1: item.bfSword, base2: item.Rod },
+	InfinityEdge: { base1: item.bfSword, base2: item.Gloves },
+	IonicSpark: { base1: item.Cloak, base2: item.Rod },
+	QuickSilver: { base1: item.Cloak, base2: item.Gloves },
+	ProtectorsVow: { base1: item.Vest, base2: item.Tear },
+	Morellonomicon: { base1: item.Belt, base2: item.Rod },
+	LocketSolari: { base1: item.Vest, base2: item.Rod },
+	LastWhisper: { base1: item.Bow, base2: item.Gloves },
+	JeweledGauntlet: { base1: item.Gloves, base2: item.Rod },
+	SpearOfShojin: { base1: item.bfSword, base2: item.Rod },
+	Shroud: { base1: item.Vest, base2: item.Gloves },
+	RunaansHurricane: { base1: item.Cloak, base2: item.Bow },
+	Redemption: { base1: item.Belt, base2: item.Tear },
+	RapidFirecannon: { base1: item.Bow, base2: item.Bow },
+	RabadonsDeathcap: { base1: item.Rod, base2: item.Rod },
+	WarmogsArmor: { base1: item.Belt, base2: item.Belt },
+	TitansResolve: { base1: item.Bow, base2: item.Vest },
+	ThiefsGloves: { base1: item.Gloves, base2: item.Gloves },
+	SunfireCape: { base1: item.Belt, base2: item.Vest },
+	StatikkShiv: { base1: item.Bow, base2: item.Tear },
+	ZzRotPortal: { base1: item.Belt, base2: item.Bow },
+	Zephyr: { base1: item.Belt, base2: item.Cloak },
+	ZekesHerald: { base1: item.Belt, base2: item.bfSword },
+	DragonsClaw: { base1: item.Cloak, base2: item.Cloak },
+}
+
+
 export const champion = [
   [{
     champion: 'Ao Shin',
@@ -7,31 +49,36 @@ export const champion = [
     item: {
       name: 'Spear of Shojin',
       ratio: '17.66%',
-      src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png'
+        src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png',
+      combination:itemsName.SpearOfShojin,
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '15.50%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '8.58%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet,
     }
   }, {
     item: {
       name: 'Hextech Gunblade',
       ratio: '6.59%',
-      src: '//cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png'
+       src: '//cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png',
+      combination:itemsName.HextechGunblade,
     }
   }, {
     item: {
       name: 'Giant Slayer',
       ratio: '5.65%',
-      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg',
+      combination:itemsName.GiantSlayer,
     }
   }]
   ], [{
@@ -42,31 +89,36 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '38.71%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
       name: 'Last Whisper',
       ratio: '21.87%',
-      src: '//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png'
+       src: '//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png',
+      combination:itemsName.LastWhisper,
     }
   }, {
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '6.56%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '4.53%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }, {
     item: {
       name: 'Giant Slayer',
       ratio: '3.59%',
-      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg',
+      combination:itemsName.GiantSlayer,
     }
   }]
   ], [{
@@ -77,31 +129,36 @@ export const champion = [
     item: {
       name: "Archangel's Staff",
       ratio: '13.46%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '10.79%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet
     }
   }, {
     item: {
       name: 'Spear of Shojin',
       ratio: '8.57%',
-      src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png'
+        src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png',
+      combination:itemsName.SpearOfShojin
     }
   }, {
     item: {
       name: 'Hextech Gunblade',
       ratio: '7.90%',
-      src: '//cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png'
+       src: '//cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png',
+      combination:itemsName.HextechGunblade,
     }
   }, {
     item: {
       name: 'Blue Buff',
       ratio: '5.61%',
-      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png'
+      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png',
+      combination:itemsName.BlueBuff,
     }
   }]
   ], [{
@@ -112,13 +169,15 @@ export const champion = [
     item: {
       name: 'Spear of Shojin',
       ratio: '8.07%',
-      src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png'
+        src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png',
+      combination:itemsName.SpearOfShojin
     }
   }, {
     item: {
       name: "Zeke's Herald",
       ratio: '6.78%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -130,7 +189,8 @@ export const champion = [
     item: {
       name: 'Chalice of Power',
       ratio: '5.51%',
-      src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png',
+      combination:itemsName.ChaliceOfPower
     }
   }, {
     item: {
@@ -147,7 +207,8 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '12.43%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
@@ -159,19 +220,22 @@ export const champion = [
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '8.96%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
       name: "Warmog's Armor",
       ratio: '7.52%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }, {
     item: {
       name: 'Redemption',
       ratio: '6.63%',
-      src: '//cdn.lolchess.gg/upload/images/items/Redemption_1642015166.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Redemption_1642015166.png',
+      combination:itemsName.Redemption
     }
   }]
   ], [{
@@ -182,31 +246,36 @@ export const champion = [
     item: {
       name: "Archangel's Staff",
       ratio: '19.74%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '18.47%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: 'Giant Slayer',
       ratio: '12.39%',
-      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg',
+      combination:itemsName.GiantSlayer,
     }
   }, {
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '10.60%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet,
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '6.10%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }]
   ], [{
@@ -217,31 +286,36 @@ export const champion = [
     item: {
       name: 'Ionic Spark',
       ratio: '16.76%',
-      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png',
+      combination:itemsName.IonicSpark
     }
   }, {
     item: {
       name: 'Sunfire Cape',
       ratio: '14.24%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: 'Hand of Justice',
       ratio: '9.12%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '5.17%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: "Rabadon's Deathcap",
       ratio: '3.64%',
-      src: '//cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png'
+       src: '//cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png',
+      combination:itemsName.RabadonsDeathcap
     }
   }]
   ], [{
@@ -258,25 +332,29 @@ export const champion = [
     item: {
       name: 'Blue Buff',
       ratio: '8.25%',
-      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png'
+      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png',
+      combination:itemsName.BlueBuff,
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '7.67%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '6.95%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet,
     }
   }, {
     item: {
       name: 'Giant Slayer',
       ratio: '5.11%',
-      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg',
+      combination:itemsName.GiantSlayer,
     }
   }]
   ], [{
@@ -287,7 +365,8 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '8.64%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
@@ -305,13 +384,15 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '3.96%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
       name: 'Redemption',
       ratio: '3.86%',
-      src: '//cdn.lolchess.gg/upload/images/items/Redemption_1642015166.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Redemption_1642015166.png',
+      combination:itemsName.Redemption
     }
   }]
   ], [{
@@ -328,25 +409,29 @@ export const champion = [
     item: {
       name: 'TiTans Resolve',
       ratio: '9.55%',
-      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png'
+      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png',
+      combination:itemsName.TitansResolve
     }
   }, {
     item: {
       name: 'Hand of Justice',
       ratio: '8.78%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '6.25%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge
     }
   }, {
     item: {
       name: 'Giant Slayer',
       ratio: '6.08%',
-      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg',
+      combination:itemsName.GiantSlayer,
     }
   }]
   ], [{
@@ -363,19 +448,22 @@ export const champion = [
     item: {
       name: 'Morellonomicon',
       ratio: '7.06%',
-      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png',
+      combination:itemsName.Morellonomicon
     }
   }, {
     item: {
       name: 'Sunfire Cape',
       ratio: '6.10%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '5.77%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
@@ -392,19 +480,22 @@ export const champion = [
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '15.00%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
       name: 'Sunfire Cape',
       ratio: '13.42%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: "Warmog's Armor",
       ratio: '10.44%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }, {
     item: {
@@ -427,7 +518,8 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '8.97%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
@@ -445,7 +537,8 @@ export const champion = [
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '4.24%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
@@ -462,19 +555,22 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '6.93%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '6.33%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
       name: "Warmog's Armor",
       ratio: '5.91%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }, {
     item: {
@@ -503,25 +599,29 @@ export const champion = [
     item: {
       name: 'Morellonomicon',
       ratio: '10.30%',
-      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png',
+      combination:itemsName.Morellonomicon
     }
   }, {
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '5.80%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '4.52%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: 'Zephyr',
       ratio: '4.48%',
-      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png'
+      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png',
+      combination:itemsName.Zephyr
     }
   }]
   ], [{
@@ -532,7 +632,8 @@ export const champion = [
     item: {
       name: 'Zephyr',
       ratio: '15.01%',
-      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png'
+      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png',
+      combination:itemsName.Zephyr
     }
   }, {
     item: {
@@ -550,13 +651,15 @@ export const champion = [
     item: {
       name: 'Morellonomicon',
       ratio: '5.98%',
-      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png',
+      combination:itemsName.Morellonomicon
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '4.31%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }]
   ], [{
@@ -567,19 +670,22 @@ export const champion = [
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '13.84%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet,
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '11.55%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }, {
     item: {
       name: 'Hand of Justice',
       ratio: '8.24%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }, {
     item: {
@@ -591,7 +697,8 @@ export const champion = [
     item: {
       name: 'Chalice of Power',
       ratio: '4.84%',
-      src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png',
+      combination:itemsName.ChaliceOfPower
     }
   }]
   ], [{
@@ -602,7 +709,8 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '8.53%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
@@ -620,7 +728,8 @@ export const champion = [
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '5.23%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
@@ -637,7 +746,8 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '6.15%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -649,13 +759,15 @@ export const champion = [
     item: {
       name: 'Zephyr',
       ratio: '4.78%',
-      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png'
+      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png',
+      combination:itemsName.Zephyr
     }
   }, {
     item: {
       name: 'Ionic Spark',
       ratio: '4.58%',
-      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png',
+      combination:itemsName.IonicSpark
     }
   }, {
     item: {
@@ -672,31 +784,36 @@ export const champion = [
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '14.76%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet,
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '14.23%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: 'Spear of Shojin',
       ratio: '14.20%',
-      src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png'
+        src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png',
+      combination:itemsName.SpearOfShojin
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '7.99%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }, {
     item: {
       name: 'Blue Buff',
       ratio: '5.76%',
-      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png'
+      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png',
+      combination:itemsName.BlueBuff,
     }
   }]
   ], [{
@@ -713,13 +830,15 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '8.02%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '7.03%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
@@ -731,7 +850,8 @@ export const champion = [
     item: {
       name: 'Ionic Spark',
       ratio: '5.74%',
-      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png',
+      combination:itemsName.IonicSpark
     }
   }]
   ], [{
@@ -742,7 +862,8 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '6.94%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
@@ -766,7 +887,8 @@ export const champion = [
     item: {
       name: 'Ionic Spark',
       ratio: '4.64%',
-      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png',
+      combination:itemsName.IonicSpark
     }
   }]
   ], [{
@@ -777,13 +899,15 @@ export const champion = [
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '11.31%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: "Runaan's Hurricane",
       ratio: '7.10%',
-      src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png'
+     src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png',
+      combination:itemsName.RunaansHurricane
     }
   }, {
     item: {
@@ -812,7 +936,8 @@ export const champion = [
     item: {
       name: 'Infinity Edge',
       ratio: '13.49%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }, {
     item: {
@@ -824,19 +949,22 @@ export const champion = [
     item: {
       name: 'Hand of Justice',
       ratio: '8.68%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }, {
     item: {
       name: 'Giant Slayer',
       ratio: '7.67%',
-      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg',
+      combination:itemsName.GiantSlayer,
     }
   }, {
     item: {
       name: 'Last Whisper',
       ratio: '5.08%',
-      src: '//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png'
+       src: '//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png',
+      combination:itemsName.LastWhisper,
     }
   }]
   ], [{
@@ -847,31 +975,36 @@ export const champion = [
     item: {
       name: 'Spear of Shojin',
       ratio: '14.64%',
-      src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png'
+        src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png',
+      combination:itemsName.SpearOfShojin
     }
   }, {
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '13.29%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet,
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '13.10%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '6.70%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }, {
     item: {
       name: 'Hextech Gunblade',
       ratio: '5.32%',
-      src: '//cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png'
+       src: '//cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png',
+      combination:itemsName.HextechGunblade,
     }
   }]
   ], [{
@@ -888,25 +1021,29 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '8.21%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: 'Hand of Justice',
       ratio: '7.85%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }, {
     item: {
       name: "Warmog's Armor",
       ratio: '7.71%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }, {
     item: {
       name: 'Redemption',
       ratio: '6.60%',
-      src: '//cdn.lolchess.gg/upload/images/items/Redemption_1642015166.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Redemption_1642015166.png',
+      combination:itemsName.Redemption
     }
   }]
   ], [{
@@ -923,25 +1060,29 @@ export const champion = [
     item: {
       name: "Runaan's Hurricane",
       ratio: '13.77%',
-      src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png'
+     src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png',
+      combination:itemsName.RunaansHurricane
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '11.45%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }, {
     item: {
       name: 'Giant Slayer',
       ratio: '9.03%',
-      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg',
+      combination:itemsName.GiantSlayer,
     }
   }, {
     item: {
       name: 'Hand of Justice',
       ratio: '7.20%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }]
   ], [{
@@ -952,7 +1093,8 @@ export const champion = [
     item: {
       name: 'TiTans Resolve',
       ratio: '11.86%',
-      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png'
+      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png',
+      combination:itemsName.TitansResolve
     }
   }, {
     item: {
@@ -964,13 +1106,15 @@ export const champion = [
     item: {
       name: 'Hand of Justice',
       ratio: '7.32%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }, {
     item: {
       name: "Warmog's Armor",
       ratio: '5.72%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }, {
     item: {
@@ -987,13 +1131,15 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '17.14%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
       name: 'Zephyr',
       ratio: '4.76%',
-      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png'
+      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png',
+      combination:itemsName.Zephyr
     }
   }, {
     item: {
@@ -1022,7 +1168,8 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '8.14%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
@@ -1057,7 +1204,8 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '42.05%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -1069,7 +1217,8 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '5.51%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
@@ -1081,7 +1230,8 @@ export const champion = [
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '3.98%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }]
   ], [{
@@ -1092,7 +1242,8 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '40.31%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -1104,7 +1255,8 @@ export const champion = [
     item: {
       name: 'Infinity Edge',
       ratio: '5.03%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }, {
     item: {
@@ -1116,7 +1268,8 @@ export const champion = [
     item: {
       name: 'Hand of Justice',
       ratio: '3.18%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }]
   ], [{
@@ -1127,7 +1280,8 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '19.51%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -1145,7 +1299,8 @@ export const champion = [
     item: {
       name: 'Zephyr',
       ratio: '5.90%',
-      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png'
+      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png',
+      combination:itemsName.Zephyr
     }
   }, {
     item: {
@@ -1162,7 +1317,8 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '87.44%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -1174,7 +1330,8 @@ export const champion = [
     item: {
       name: 'Zephyr',
       ratio: '0.90%',
-      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png'
+      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png',
+      combination:itemsName.Zephyr
     }
   }, {
     item: {
@@ -1197,7 +1354,8 @@ export const champion = [
     item: {
       name: 'Chalice of Power',
       ratio: '8.34%',
-      src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png',
+      combination:itemsName.ChaliceOfPower
     }
   }, {
     item: {
@@ -1209,7 +1367,8 @@ export const champion = [
     item: {
       name: 'Spear of Shojin',
       ratio: '6.67%',
-      src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png'
+        src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png',
+      combination:itemsName.SpearOfShojin
     }
   }, {
     item: {
@@ -1221,7 +1380,8 @@ export const champion = [
     item: {
       name: 'Morellonomicon',
       ratio: '4.52%',
-      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png',
+      combination:itemsName.Morellonomicon
     }
   }]
   ], [{
@@ -1238,7 +1398,8 @@ export const champion = [
     item: {
       name: 'Chalice of Power',
       ratio: '7.21%',
-      src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png',
+      combination:itemsName.ChaliceOfPower
     }
   }, {
     item: {
@@ -1256,7 +1417,8 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '5.12%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }]
   ], [{
@@ -1267,7 +1429,8 @@ export const champion = [
     item: {
       name: 'TiTans Resolve',
       ratio: '10.76%',
-      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png'
+      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png',
+      combination:itemsName.TitansResolve
     }
   }, {
     item: {
@@ -1279,7 +1442,8 @@ export const champion = [
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '4.85%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
@@ -1291,7 +1455,8 @@ export const champion = [
     item: {
       name: 'Hand of Justice',
       ratio: '4.62%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }]
   ], [{
@@ -1302,31 +1467,36 @@ export const champion = [
     item: {
       name: "Archangel's Staff",
       ratio: '10.12%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: 'Morellonomicon',
       ratio: '8.77%',
-      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png',
+      combination:itemsName.Morellonomicon
     }
   }, {
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '7.67%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet,
     }
   }, {
     item: {
       name: 'Ionic Spark',
       ratio: '6.95%',
-      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png',
+      combination:itemsName.IonicSpark
     }
   }, {
     item: {
       name: 'Hand of Justice',
       ratio: '5.41%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }]
   ], [{
@@ -1337,13 +1507,15 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '13.32%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '9.53%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
@@ -1361,7 +1533,8 @@ export const champion = [
     item: {
       name: "Warmog's Armor",
       ratio: '6.27%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }]
   ], [{
@@ -1372,31 +1545,36 @@ export const champion = [
     item: {
       name: 'Blue Buff',
       ratio: '25.06%',
-      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png'
+      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png',
+      combination:itemsName.BlueBuff,
     }
   }, {
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '17.59%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet,
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '10.40%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }, {
     item: {
       name: 'Morellonomicon',
       ratio: '9.81%',
-      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png',
+      combination:itemsName.Morellonomicon
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '8.61%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }]
   ], [{
@@ -1407,7 +1585,8 @@ export const champion = [
     item: {
       name: 'Spear of Shojin',
       ratio: '7.32%',
-      src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png'
+        src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png',
+      combination:itemsName.SpearOfShojin
     }
   }, {
     item: {
@@ -1419,19 +1598,22 @@ export const champion = [
     item: {
       name: 'Chalice of Power',
       ratio: '5.63%',
-      src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png',
+      combination:itemsName.ChaliceOfPower
     }
   }, {
     item: {
       name: "Zeke's Herald",
       ratio: '5.27%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '5.24%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }]
   ], [{
@@ -1448,19 +1630,22 @@ export const champion = [
     item: {
       name: 'TiTans Resolve',
       ratio: '12.96%',
-      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png'
+      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png',
+      combination:itemsName.TitansResolve
     }
   }, {
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '7.49%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: 'Hand of Justice',
       ratio: '6.86%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }, {
     item: {
@@ -1477,19 +1662,22 @@ export const champion = [
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '13.97%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
       name: 'Sunfire Cape',
       ratio: '11.96%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: "Warmog's Armor",
       ratio: '8.94%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }, {
     item: {
@@ -1512,7 +1700,8 @@ export const champion = [
     item: {
       name: 'Chalice of Power',
       ratio: '12.23%',
-      src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png',
+      combination:itemsName.ChaliceOfPower
     }
   }, {
     item: {
@@ -1530,13 +1719,15 @@ export const champion = [
     item: {
       name: 'Zephyr',
       ratio: '6.04%',
-      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png'
+      src: '//cdn.lolchess.gg/images/tft/item/Zephyr.png',
+      combination:itemsName.Zephyr
     }
   }, {
     item: {
       name: "Zeke's Herald",
       ratio: '5.86%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }]
   ], [{
@@ -1547,25 +1738,29 @@ export const champion = [
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '14.87%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
       name: 'Sunfire Cape',
       ratio: '11.62%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: "Warmog's Armor",
       ratio: '9.78%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }, {
     item: {
       name: "Dragon's Claw",
       ratio: '7.18%',
-      src: '//cdn.lolchess.gg/upload/images/items/DragonsClaw_1640058416.png'
+      src: '//cdn.lolchess.gg/upload/images/items/DragonsClaw_1640058416.png',
+      combination:itemsName.DragonsClaw
     }
   }, {
     item: {
@@ -1582,7 +1777,8 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '19.90%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -1600,13 +1796,15 @@ export const champion = [
     item: {
       name: 'Last Whisper',
       ratio: '6.22%',
-      src: '//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png'
+       src: '//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png',
+      combination:itemsName.LastWhisper,
     }
   }, {
     item: {
       name: "Runaan's Hurricane",
       ratio: '5.93%',
-      src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png'
+     src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png',
+      combination:itemsName.RunaansHurricane
     }
   }]
   ], [{
@@ -1617,13 +1815,15 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '14.30%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
       name: 'Morellonomicon',
       ratio: '12.87%',
-      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png',
+      combination:itemsName.Morellonomicon
     }
   }, {
     item: {
@@ -1635,13 +1835,15 @@ export const champion = [
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '9.28%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '6.11%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }]
   ], [{
@@ -1652,19 +1854,22 @@ export const champion = [
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '19.84%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: "Runaan's Hurricane",
       ratio: '11.59%',
-      src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png'
+     src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png',
+      combination:itemsName.RunaansHurricane
     }
   }, {
     item: {
       name: 'Giant Slayer',
       ratio: '8.61%',
-      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg',
+      combination:itemsName.GiantSlayer,
     }
   }, {
     item: {
@@ -1693,19 +1898,22 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '6.35%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '5.36%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
       name: 'Ionic Spark',
       ratio: '5.28%',
-      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png',
+      combination:itemsName.IonicSpark
     }
   }, {
     item: {
@@ -1722,13 +1930,15 @@ export const champion = [
     item: {
       name: 'Chalice of Power',
       ratio: '8.00%',
-      src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png',
+      combination:itemsName.ChaliceOfPower
     }
   }, {
     item: {
       name: 'Sunfire Cape',
       ratio: '7.85%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
@@ -1746,7 +1956,8 @@ export const champion = [
     item: {
       name: 'Ionic Spark',
       ratio: '4.08%',
-      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png',
+      combination:itemsName.IonicSpark
     }
   }]
   ], [{
@@ -1763,7 +1974,8 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '5.84%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -1775,13 +1987,15 @@ export const champion = [
     item: {
       name: "Runaan's Hurricane",
       ratio: '5.39%',
-      src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png'
+     src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png',
+      combination:itemsName.RunaansHurricane
     }
   }, {
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '4.95%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }]
   ], [{
@@ -1792,31 +2006,36 @@ export const champion = [
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '29.97%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: 'Giant Slayer',
       ratio: '18.53%',
-      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg',
+      combination:itemsName.GiantSlayer,
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '11.34%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }, {
     item: {
       name: 'Last Whisper',
       ratio: '9.80%',
-      src: '//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png'
+       src: '//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png',
+      combination:itemsName.LastWhisper,
     }
   }, {
     item: {
       name: "Runaan's Hurricane",
       ratio: '4.14%',
-      src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png'
+     src: '//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png',
+      combination:itemsName.RunaansHurricane
     }
   }]
   ], [{
@@ -1833,25 +2052,29 @@ export const champion = [
     item: {
       name: 'TiTans Resolve',
       ratio: '7.57%',
-      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png'
+      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png',
+      combination:itemsName.TitansResolve
     }
   }, {
     item: {
       name: 'Blue Buff',
       ratio: '7.11%',
-      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png'
+      src: '//cdn.lolchess.gg/images/tft/item/BlueBuff.png',
+      combination:itemsName.BlueBuff,
     }
   }, {
     item: {
       name: 'Hand of Justice',
       ratio: '6.24%',
-      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg',
+      combination:itemsName.HandOfJustice
     }
   }, {
     item: {
       name: 'Infinity Edge',
       ratio: '4.06%',
-      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png'
+      src: '//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png',
+      combination:itemsName.InfinityEdge,
     }
   }]
   ], [{
@@ -1862,13 +2085,15 @@ export const champion = [
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '8.43%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: "Zeke's Herald",
       ratio: '8.43%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -1897,13 +2122,15 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '9.41%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '8.66%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
@@ -1921,7 +2148,8 @@ export const champion = [
     item: {
       name: "Warmog's Armor",
       ratio: '6.69%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }]
   ], [{
@@ -1932,7 +2160,8 @@ export const champion = [
     item: {
       name: "Zeke's Herald",
       ratio: '12.26%',
-      src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png'
+       src: '//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png',
+      combination:itemsName.ZekesHerald
     }
   }, {
     item: {
@@ -1956,7 +2185,8 @@ export const champion = [
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '3.90%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }]
   ], [{
@@ -1967,19 +2197,22 @@ export const champion = [
     item: {
       name: 'Sunfire Cape',
       ratio: '12.99%',
-      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png'
+      src: '//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png',
+      combination:itemsName.SunfireCape
     }
   }, {
     item: {
       name: 'Gargoyle Stoneplate',
       ratio: '7.03%',
-      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png'
+      src: '//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png',
+      combination:itemsName.Gargoyle
     }
   }, {
     item: {
       name: "Warmog's Armor",
       ratio: '5.17%',
-      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png',
+      combination:itemsName.WarmogsArmor
     }
   }, {
     item: {
@@ -1991,7 +2224,8 @@ export const champion = [
     item: {
       name: 'TiTans Resolve',
       ratio: '4.88%',
-      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png'
+      src: '//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png',
+      combination:itemsName.TitansResolve
     }
   }]
   ], [{
@@ -2002,7 +2236,8 @@ export const champion = [
     item: {
       name: 'Spear of Shojin',
       ratio: '11.24%',
-      src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png'
+        src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png',
+      combination:itemsName.SpearOfShojin
     }
   }, {
     item: {
@@ -2014,19 +2249,22 @@ export const champion = [
     item: {
       name: 'Chalice of Power',
       ratio: '5.61%',
-      src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png'
+       src: '//cdn.lolchess.gg/upload/images/items/Chalice_D96IpanZVyS5SqA0PxLDfDp7FVAV7WGz6iCZaVLC.png',
+      combination:itemsName.ChaliceOfPower
     }
   }, {
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '4.95%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '4.41%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }]
   ], [{
@@ -2037,32 +2275,40 @@ export const champion = [
     item: {
       name: "Guinsoo's Rageblade",
       ratio: '7.97%',
-      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg',
+      combination:itemsName.RageBlade,
     }
   }, {
     item: {
       name: 'Spear of Shojin',
       ratio: '7.40%',
-      src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png'
+        src: '//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png',
+      combination:itemsName.SpearOfShojin
     }
   }, {
     item: {
       name: 'Morellonomicon',
       ratio: '6.90%',
-      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png'
+      src: '//cdn.lolchess.gg/upload/images/items/Morellonomicon_1640058393.png',
+      combination:itemsName.Morellonomicon
     }
   }, {
     item: {
       name: 'Jeweled Gauntlet',
       ratio: '6.52%',
-      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg'
+      src: '//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg',
+      combination:itemsName.JeweledGauntlet,
     }
   }, {
     item: {
       name: "Archangel's Staff",
       ratio: '6.19%',
-      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png'
+      src: '//cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png',
+      combination:itemsName.ArchangelsStaff,
     }
   }]
   ]
 ]
+
+
+

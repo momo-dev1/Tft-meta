@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { DataList } from "../types/repositoryTypes";
+import { DataList } from "../types/dataTypes";
 import { champion } from "../utils/data";
 import RowGrid from "./RowGrid";
 import Search from "./Search";

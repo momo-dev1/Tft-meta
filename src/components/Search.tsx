@@ -1,4 +1,4 @@
-import { IProps } from "../types/repositoryTypes";
+import { IProps } from "../types/dataTypes";
 
 const Search = ({ searchChampion, setSearchChampion }: IProps) => {
   return (

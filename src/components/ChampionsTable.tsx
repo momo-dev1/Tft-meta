@@ -56,12 +56,11 @@ const ChampionsTable = () => {
                 <tbody className="bg-blackRussian">
                   {filteredChampions.map((item) => {
                     return (
-                      <tr className="odd:bg-midNightExpress">
-                        <RowGrid
-                          // key={item[0].champion}
-                          champion={item[0]}
-                          items={item[1]}
-                        />
+                      <tr
+                        key={item[0].champion}
+                        className="odd:bg-midNightExpress"
+                      >
+                        <RowGrid champion={item[0]} items={item[1]} />
                       </tr>
                     );
                   })}

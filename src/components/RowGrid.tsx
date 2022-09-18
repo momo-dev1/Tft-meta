@@ -5,7 +5,7 @@ const RowGrid = ({ champion, items }: any) => {
     <>
       <Champion champion={champion} />
       {items.map(({ item }: any) => (
-        <Item item={item} />
+        <Item key={item.name} item={item} />
       ))}
     </>
   );

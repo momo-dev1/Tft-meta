@@ -10,7 +10,7 @@ const NavBar = () => {
     <nav className="bg-ironGrey flex text-lightCyan px-4 pt-4">
       <ul className="max-w-6xl mx-auto w-full text-lg flex gap-4">
         {navigation.map((item) => (
-          <Link to={item.path}>
+          <Link key={item.name} to={item.path}>
             <li
               className={`${
                 location.pathname.slice(1) === item.path

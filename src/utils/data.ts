@@ -2397,7 +2397,6 @@ export const championList = [
   ]
 ]
 
-
 export const compoList = [
   {
     title: "mirage daeja",
@@ -2416,5 +2415,41 @@ export const compoList = [
       champion.LeeSin
       ],
     final: "/comps/mirage.png"
-  }
+  },
+  {
+    title: "xayah ragewing",
+    early: [
+      champion.Rell,
+      champion.Sejuani,
+      champion.Ezreal,
+      champion.Twitch
+    ],
+    mid: [
+      champion.Rell,
+      champion.Sejuani,
+      champion.Ezreal,
+      champion.Twitch,
+      champion.Lillia,
+      champion.Qiyana
+      ],
+    final: "/comps/xayah.png"
+  },
+  {
+    title: "darkflight cannoneer",
+    early: [
+      champion.Rell,
+      champion.Sejuani,
+      champion.Aphelios,
+      champion.Senna
+    ],
+    mid: [
+      champion.Rell,
+      champion.Aphelios,
+      champion.Aphelios,
+      champion.Senna,
+      champion.Zeri,
+      champion.Rengar
+      ],
+    final: "/comps/darkflight.png"
+  },
 ]

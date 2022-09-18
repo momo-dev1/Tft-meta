@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import Search from "./Search";
 import RowGrid from "./RowGrid";
 import Champion from "./Champion";
+import CompoDeck from "./CompoDeck";
 import Container from "./Container";
 import ChampionsTable from "./ChampionsTable";
 
@@ -14,6 +15,7 @@ export {
   NavBar,
   RowGrid,
   Champion,
+  CompoDeck,
   Container,
   ChampionsTable,
 };

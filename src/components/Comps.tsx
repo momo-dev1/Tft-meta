@@ -1,7 +1,11 @@
-import { Container } from "./index";
+import { Container, CompoDeck } from "./index";
 
 const Comps = () => {
-  return <Container>Comps</Container>;
+  return (
+    <Container>
+      <CompoDeck />
+    </Container>
+  );
 };
 
 export default Comps;

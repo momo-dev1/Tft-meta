@@ -1,4 +1,4 @@
-import { item } from "../types/dataTypes"
+import { item ,champion} from "../types/dataTypes"
 
 export const itemsName = {
 	ArchangelsStaff: { base1: item.Rod, base2: item.Tear },
@@ -39,7 +39,7 @@ export const itemsName = {
 	DragonsClaw: { base1: item.Cloak, base2: item.Cloak },
 }
 
-export const champion = [
+export const championList = [
   [{
     champion: 'Ao Shin',
     src: '//cdn.lolchess.gg/upload/images/champions/AoShin_1653029477.png'
@@ -2395,4 +2395,26 @@ export const champion = [
     }
   }]
   ]
+]
+
+
+export const compoList = [
+  {
+    title: "mirage daeja",
+    early: [
+      champion.Jax,
+      champion.Malphite,
+      champion.Sejuani,
+      champion.Twitch
+    ],
+    mid: [
+      champion.Jax,
+      champion.Malphite,
+      champion.Sejuani,
+      champion.Twitch,
+      champion.Ezreal,
+      champion.LeeSin
+      ],
+    final: "/comps/mirage.png"
+  }
 ]

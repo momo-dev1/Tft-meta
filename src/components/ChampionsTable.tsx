@@ -1,26 +1,28 @@
 import { useState } from "react";
-import { champion } from "../utils/data";
+import { championList } from "../utils/data";
 import { Container, RowGrid, Search } from "./index";
 
 const ChampionsTable = () => {
   const [searchChampion, setSearchChampion] = useState<string>("");
 
   const search = () => {
-    const filterChampions = champion.filter((value: any) => {
+    const filterChampions = championList.filter((value: any) => {
       return value[0]?.champion
         ?.toLowerCase()
         .includes(searchChampion?.toLowerCase());
     });
     return filterChampions;
   };
-  const filteredChampions: any[] | [] = searchChampion ? search() : champion;
+  const filteredChampions: any[] | [] = searchChampion
+    ? search()
+    : championList;
 
   return (
     <Container>
       <div className="flex flex-col sm:flex-row sm:items-center  gap-y-3">
         <div className="flex-1">
           <h1 className="text-xl font-semibold text-lightCyan">
-            v12.17 Item Meta
+            v12.17 Meta Items
           </h1>
           <p className="mt-2 text-sm text-lightGrey">
             Based on use of TOP 4 players above Platinum Tier

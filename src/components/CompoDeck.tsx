@@ -3,12 +3,12 @@ import { compoList } from "../utils/data";
 const CompoDeck = () => {
   return (
     <div>
-      <h1 className="text-xl font-semibold mb-8 text-lightCyan">
+      <h1 className="text-xl md:text-2xl font-semibold mb-8 text-lightCyan">
         v12.17 Meta Comps
       </h1>
       {compoList.map((compo) => {
         return (
-          <figure className="text-lightCyan mb-10 ">
+          <figure className="text-lightCyan mb-16 last:mb-2">
             <div className="flex flex-col md:flex-row gap-4">
               <div>
                 <h3 className="text-2xl capitalize text-marzipan">

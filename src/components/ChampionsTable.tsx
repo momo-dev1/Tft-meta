@@ -21,7 +21,7 @@ const ChampionsTable = () => {
     <Container>
       <div className="flex flex-col sm:flex-row sm:items-center  gap-y-3">
         <div className="flex-1">
-          <h1 className="text-xl font-semibold text-lightCyan">
+          <h1 className="text-xl md:text-2xl font-semibold text-lightCyan">
             v12.17 Meta Items
           </h1>
           <p className="mt-2 text-sm text-lightGrey">

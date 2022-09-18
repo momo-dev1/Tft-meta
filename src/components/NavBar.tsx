@@ -5,9 +5,9 @@ const NavBar = () => {
     { name: "Comps", path: "/comps" },
   ];
   const location = useLocation();
-  console.log(location.pathname);
+
   return (
-    <nav className="bg-[#363944] flex text-[#DBFFFF] px-4 pt-4">
+    <nav className="bg-ironGrey flex text-lightCyan px-4 pt-4">
       <ul className="max-w-6xl mx-auto w-full text-lg flex gap-4">
         {navigation.map((item) => (
           <Link to={item.path}>
@@ -20,7 +20,7 @@ const NavBar = () => {
             >
               {item.name}
               {location.pathname === item.path ? (
-                <span className="h-1 w-full absolute bottom-0 left-0 bg-[#DBFFFF]"></span>
+                <span className="h-1 w-full absolute bottom-0 left-0 bg-lightCyan"></span>
               ) : null}
             </li>
           </Link>

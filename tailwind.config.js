@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        lightCyan: "#DBFFFF",
+        lightGrey: "#999999",
+        ironGrey: "#363944",
+        blackRussian: "#27282d",
+        midNightExpress: "#2a2c33",
+      }
+    },
     fontFamily: {
       sans: ['Roboto', "sans-serif"]
     },

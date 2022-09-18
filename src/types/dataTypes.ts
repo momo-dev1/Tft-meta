@@ -75,10 +75,3 @@ export enum champion{
     Zoe="cdn.lolchess.gg/upload/images/champions/Zoe_1653030312.png",
     Zyra="cdn.lolchess.gg/upload/images/champions/Zyra_1661160955-Zyra.jpg",
 }
-
-export interface DataList {
-	champion: {
-		title: string,
-		img: string
-	};
-  }

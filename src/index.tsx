@@ -2,9 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-import ChampionsTable from "./components/ChampionsTable";
-import Comps from "./components/Comps";
-
+import { ChampionsTable, Comps } from "./components/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(

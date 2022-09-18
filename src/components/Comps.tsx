@@ -1,5 +1,7 @@
+import { Container } from "./index";
+
 const Comps = () => {
-  return <div>Comps</div>;
+  return <Container>Comps</Container>;
 };
 
 export default Comps;

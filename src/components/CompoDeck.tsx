@@ -16,7 +16,7 @@ const CompoDeck = () => {
                 </h3>
                 <div className="my-5">
                   <h5 className="mb-2 text-sm">Early Game Plan</h5>
-                  <div className="flex items-center gap-4 w-full h-10 md:h-15 lg:h-20 flex-wrap">
+                  <div className="flex items-center gap-4 w-full flex-wrap">
                     {compo.early.map((item) => (
                       <img
                         className="object-contain w-10 h-10 md:w-15 md:h-15 lg:w-16 lg:h-16 rounded-3xl"
@@ -28,7 +28,7 @@ const CompoDeck = () => {
                 </div>
                 <div>
                   <h5 className="mb-2 text-sm">Mid Game Plan</h5>
-                  <div className="flex items-center gap-4 w-full h-10 md:h-15 lg:h-20 flex-wrap ">
+                  <div className="flex items-center gap-4 w-full flex-wrap">
                     {compo.mid.map((item) => (
                       <img
                         className="object-cover w-10 h-10 md:w-15 md:h-15  lg:w-16 lg:h-16 rounded-3xl"

@@ -39,7 +39,7 @@ const CompoDeck = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 mt-4">
+                <div className="grid grid-cols-2 mt-4 gap-2">
                   <div>
                     <h5 className="mb-2 text-sm text-metallicPink">
                       Core Item
@@ -68,7 +68,7 @@ const CompoDeck = () => {
                     </div>
                   </div>
                 </div>
-                <div className="grid grid-cols-2 mt-4 w-full">
+                <div className="grid grid-cols-2 mt-4 w-full gap-2">
                   <div>
                     <h5 className="mb-2 text-sm text-metallicPink">Flex</h5>
                     <div className="flex items-center gap-4 w-full flex-wrap">

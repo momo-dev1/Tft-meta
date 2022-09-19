@@ -15,7 +15,7 @@ export enum item{
 }
 
 export enum champion{
-	AoShin="//cdn.lolchess.gg/upload/images/champions/AoShin_1653029477.png",
+    AoShin="//cdn.lolchess.gg/upload/images/champions/AoShin_1653029477.png",
     Aphelios="//cdn.lolchess.gg/upload/images/champions/Aphelios_1661160970-Aphelios.jpg",
     AurelionSol="//cdn.lolchess.gg/upload/images/champions/AurelionSol_1653030178.png",
     Bard="//cdn.lolchess.gg/upload/images/champions/Bard_1653029776.png",
@@ -61,7 +61,7 @@ export enum champion{
     Taliyah="//cdn.lolchess.gg/upload/images/champions/Taliyah_1661160902-Taliyah.jpg",
     Terra="//cdn.lolchess.gg/upload/images/champions/Terra_1660918949-Terra.jpg",
     Twitch="//cdn.lolchess.gg/upload/images/champions/Twitch_1653030423.png",
-	TyrantSwain = "//cdn.lolchess.gg/upload/images/champions/Swain_1661160992-Swain, Dragon Tyrant.jpg",
+    TyrantSwain = "//cdn.lolchess.gg/upload/images/champions/Swain_1661160992-Swain, Dragon Tyrant.jpg",
     Varus="//cdn.lolchess.gg/upload/images/champions/Varus_1653029781.png",
     Vladimir="//cdn.lolchess.gg/upload/images/champions/Vladimir_1653029808.png",
     Volibear="//cdn.lolchess.gg/upload/images/champions/Volibear_1653029788.png",
@@ -75,3 +75,19 @@ export enum champion{
     Zoe="//cdn.lolchess.gg/upload/images/champions/Zoe_1653030312.png",
     Zyra="//cdn.lolchess.gg/upload/images/champions/Zyra_1661160955-Zyra.jpg",
 }
+
+export enum fullItem{
+    ZekesHerald="//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png",
+    TitansResolve = "//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png",
+    LastWhisper = "//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png",
+    InfinityEdge="//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png",
+    GiantSlayer = "//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg",
+    EdgeofNight = "//cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
+    GuinsoosRageblade = "//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1658799327-GuinsoosRageblade.jpg",
+    RunaansHurricane = "//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1640058427.png",
+    HandOfJustice = "//cdn.lolchess.gg/upload/images/items/HandofJustice_1658738743-HandofJustice_80.jpg",
+    Bloodthirster = "//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png",
+    JeweledGauntlet = "//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg",
+    RabadonsDeathcap = "//cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
+    ArchangelsStaff=" //cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png"
+  }

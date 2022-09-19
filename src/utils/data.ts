@@ -39,6 +39,14 @@ export const itemsName = {
 	DragonsClaw: { base1: item.Cloak, base2: item.Cloak },
 }
 
+enum fullItem{
+  ZekesHerald="//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png",
+  TitansResolve = "//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png",
+  LastWhisper = "//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png",
+  InfinityEdge="//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png",
+  GiantSlayer = "//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg",
+  EdgeofNight="//cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png"
+}
 export const championList = [
   [{
     champion: 'Ao Shin',
@@ -2399,6 +2407,28 @@ export const championList = [
 
 export const compoList = [
   {
+    title: "darkflight cannoneer",
+    early: [
+      champion.Rell,
+      champion.Sejuani,
+      champion.Aphelios,
+      champion.Senna
+    ],
+    mid: [
+      champion.Rell,
+      champion.Aphelios,
+      champion.Aphelios,
+      champion.Senna,
+      champion.Zeri,
+      champion.Rengar
+    ],
+    core: [fullItem.ZekesHerald],
+    lowkey: [fullItem.LastWhisper,fullItem.EdgeofNight],
+    flex: [fullItem.GiantSlayer, fullItem.TitansResolve, fullItem.InfinityEdge],
+    itemsHolder:[champion.Aphelios,champion.Rell,champion.Graves,champion.Rengar],
+    final: "/comps/darkflight.png"
+  },
+  {
     title: "mirage daeja",
     early: [
       champion.Jax,
@@ -2434,22 +2464,5 @@ export const compoList = [
       ],
     final: "/comps/xayah.png"
   },
-  {
-    title: "darkflight cannoneer",
-    early: [
-      champion.Rell,
-      champion.Sejuani,
-      champion.Aphelios,
-      champion.Senna
-    ],
-    mid: [
-      champion.Rell,
-      champion.Aphelios,
-      champion.Aphelios,
-      champion.Senna,
-      champion.Zeri,
-      champion.Rengar
-      ],
-    final: "/comps/darkflight.png"
-  },
+ 
 ]

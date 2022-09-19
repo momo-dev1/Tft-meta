@@ -11,7 +11,8 @@ module.exports = {
         ironGrey: "#363944",
         blackRussian: "#27282d",
         midNightExpress: "#2a2c33",
-        marzipan: "#E6CC80",
+        marzipan: "#FFD180",
+        metallicPink: "#ECAAB9",
       }
     },
     fontFamily: {

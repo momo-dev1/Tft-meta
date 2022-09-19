@@ -38,6 +38,64 @@ const CompoDeck = () => {
                     ))}
                   </div>
                 </div>
+
+                <div className="grid grid-cols-2 mt-4">
+                  <div>
+                    <h5 className="mb-2 text-sm text-metallicPink">
+                      Core Item
+                    </h5>
+                    <div className="flex items-center gap-4 w-full flex-wrap">
+                      {compo?.core?.map((item) => (
+                        <img
+                          className="object-cover w-7 h-7 md:w-15 md:h-15   rounded-3xl"
+                          src={item}
+                          alt=""
+                        />
+                      ))}
+                    </div>
+                  </div>
+
+                  <div>
+                    <h5 className="mb-2 text-sm text-metallicPink">Low key</h5>
+                    <div className="flex items-center gap-4 w-full flex-wrap">
+                      {compo?.lowkey?.map((item) => (
+                        <img
+                          className="object-cover w-7 h-7 md:w-15 md:h-15   rounded-3xl"
+                          src={item}
+                          alt=""
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 mt-4 w-full">
+                  <div>
+                    <h5 className="mb-2 text-sm text-metallicPink">Flex</h5>
+                    <div className="flex items-center gap-4 w-full flex-wrap">
+                      {compo?.flex?.map((item) => (
+                        <img
+                          className="object-cover w-7 h-7 md:w-15 md:h-15   rounded-3xl"
+                          src={item}
+                          alt=""
+                        />
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h5 className="mb-2 text-sm text-metallicPink">
+                      Items holder
+                    </h5>
+                    <div className="flex items-center gap-4 w-full flex-wrap">
+                      {compo?.itemsHolder?.map((item) => (
+                        <img
+                          className="object-cover w-7 h-7 md:w-15 md:h-15   rounded-3xl"
+                          src={item}
+                          alt=""
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="mt-4 w-full md:mt-0 md:max-h-[500px]">
                 <img

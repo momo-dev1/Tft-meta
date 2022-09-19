@@ -1,4 +1,4 @@
-import { item ,champion} from "../types/dataTypes"
+import { item ,champion, fullItem} from "../types/dataTypes"
 
 export const itemsName = {
 	ArchangelsStaff: { base1: item.Rod, base2: item.Tear },
@@ -39,14 +39,6 @@ export const itemsName = {
 	DragonsClaw: { base1: item.Cloak, base2: item.Cloak },
 }
 
-enum fullItem{
-  ZekesHerald="//cdn.lolchess.gg/upload/images/items/ZekesHerald_1640059135.png",
-  TitansResolve = "//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png",
-  LastWhisper = "//cdn.lolchess.gg/upload/images/items/LastWhisper_1642015257.png",
-  InfinityEdge="//cdn.lolchess.gg/upload/images/items/InfinityEdge_ljmJbkViyMGC8IKr50os4jC8Ccl1ro2JbqXuvHqT.png",
-  GiantSlayer = "//cdn.lolchess.gg/upload/images/items/GiantSlayer_1658738581-GiantSlayer_80.jpg",
-  EdgeofNight="//cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png"
-}
 export const championList = [
   [{
     champion: 'Ao Shin',
@@ -2429,24 +2421,6 @@ export const compoList = [
     final: "/comps/darkflight.png"
   },
   {
-    title: "mirage daeja",
-    early: [
-      champion.Jax,
-      champion.Malphite,
-      champion.Sejuani,
-      champion.Twitch
-    ],
-    mid: [
-      champion.Jax,
-      champion.Malphite,
-      champion.Sejuani,
-      champion.Twitch,
-      champion.Ezreal,
-      champion.LeeSin
-      ],
-    final: "/comps/mirage.png"
-  },
-  {
     title: "xayah ragewing",
     early: [
       champion.Rell,
@@ -2462,7 +2436,54 @@ export const compoList = [
       champion.Lillia,
       champion.Qiyana
       ],
+    core: [fullItem.GuinsoosRageblade],
+    flex: [fullItem.GiantSlayer, fullItem.InfinityEdge,fullItem.HandOfJustice,fullItem.RunaansHurricane ],
+    itemsHolder:[champion.Ezreal,champion.Nidalee,champion.Senna,champion.Yone,champion.Twitch],
     final: "/comps/xayah.png"
   },
+  {
+    title: "mirage daeja",
+    early: [
+      champion.Jax,
+      champion.Malphite,
+      champion.Sejuani,
+      champion.Twitch
+    ],
+    mid: [
+      champion.Jax,
+      champion.Malphite,
+      champion.Sejuani,
+      champion.Twitch,
+      champion.Ezreal,
+      champion.LeeSin
+    ],
+    core: [fullItem.ArchangelsStaff],
+    flex: [fullItem.JeweledGauntlet, fullItem.HandOfJustice,fullItem.RabadonsDeathcap,fullItem.GiantSlayer ],
+    itemsHolder:[champion.Karma,champion.Kaisa,champion.LeeSin,champion.Lillia,champion.Yone,],
+    final: "/comps/mirage.png"
+  },
+  {
+    title: "olaf warrior",
+    early: [
+      champion.Olaf,
+      champion.Wukong,
+      champion.Jax,
+      champion.Lillia,
+      champion.Gnar
+    ],
+    mid: [
+      champion.Olaf,
+      champion.Sylas,
+      champion.Braum,
+      champion.Lillia,
+      champion.Pantheon,
+      champion.Diana
+    ],
+    core: [fullItem.Bloodthirster],
+    flex: [fullItem.GiantSlayer, fullItem.InfinityEdge,fullItem.TitansResolve,fullItem.HandOfJustice ],
+    itemsHolder:[champion.Olaf,champion.LeeSin,champion.Nidalee,champion.Yone,champion.Sett],
+    final: "/comps/olaf.png"
+  },
+
  
 ]

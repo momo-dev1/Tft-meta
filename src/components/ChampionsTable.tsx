@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { championList } from "../utils/data";
+import { ChampionListType } from "../types/dataTypes";
 import { Container, RowGrid, Search } from "./index";
 
 const ChampionsTable = () => {
@@ -13,6 +14,7 @@ const ChampionsTable = () => {
     });
     return filterChampions;
   };
+
   const filteredChampions: any[] | [] = searchChampion
     ? search()
     : championList;
@@ -56,7 +58,7 @@ const ChampionsTable = () => {
                   </tr>
                 </thead>
                 <tbody className="bg-blackRussian">
-                  {filteredChampions.map((item) => {
+                  {filteredChampions.map((item: ChampionListType) => {
                     return (
                       <tr
                         key={item[0].champion}

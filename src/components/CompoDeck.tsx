@@ -4,7 +4,7 @@ const CompoDeck = () => {
   return (
     <div>
       <h1 className="text-xl md:text-2xl font-semibold mb-8 text-lightCyan">
-        v12.17 Meta Comps
+        v12.18 Meta Comps
       </h1>
       {compoList.map((compo) => {
         return (

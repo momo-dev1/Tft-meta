@@ -5,7 +5,7 @@
   <br />
   
 
-  <h2 align="center">TFT Set 7.5 Tier List – Patch 12.17 Meta Snapshot</h2>
+  <h2 align="center">TFT Set 7.5 Tier List – Patch 12.18 Meta Snapshot</h2>
   <a  href="https://mo-tft.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 </div>

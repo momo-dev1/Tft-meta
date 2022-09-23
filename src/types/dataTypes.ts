@@ -89,7 +89,10 @@ export enum fullItem {
   Bloodthirster = "//cdn.lolchess.gg/upload/images/items/Bloodthirster_1640059177.png",
   JeweledGauntlet = "//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1658738730-ArcaneGauntlet_80.jpg",
   RabadonsDeathcap = "//cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
-  ArchangelsStaff = " //cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png"
+  ArchangelsStaff = " //cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png",
+  BlueBuff = "//cdn.lolchess.gg/images/tft/item/BlueBuff.png",
+  SpearofShojin = "//cdn.lolchess.gg/upload/images/items/SpearofShojin_1642015208.png",
+  WarmogsArmor = "//cdn.lolchess.gg/upload/images/items/3083_C5Y1EvfU08Ug9wCaCJTEp2hNRjh5zSkq9eoY97Uc.png"
 }
 
 export type ChampionListType =

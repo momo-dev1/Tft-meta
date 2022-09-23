@@ -2400,28 +2400,7 @@ export const championList = [
 ]
 
 export const compoList = [
-  {
-    title: "darkflight cannoneer",
-    early: [
-      champion.Rell,
-      champion.Sejuani,
-      champion.Aphelios,
-      champion.Senna
-    ],
-    mid: [
-      champion.Rell,
-      champion.Aphelios,
-      champion.Aphelios,
-      champion.Senna,
-      champion.Zeri,
-      champion.Rengar
-    ],
-    core: [fullItem.ZekesHerald],
-    lowkey: [fullItem.LastWhisper, fullItem.EdgeofNight],
-    flex: [fullItem.GiantSlayer, fullItem.TitansResolve, fullItem.InfinityEdge],
-    itemsHolder: [champion.Aphelios, champion.Rell, champion.Graves, champion.Rengar],
-    final: "/comps/darkflight.png"
-  },
+
   {
     title: "xayah ragewing",
     early: [
@@ -2442,6 +2421,68 @@ export const compoList = [
     flex: [fullItem.GiantSlayer, fullItem.InfinityEdge, fullItem.HandOfJustice, fullItem.RunaansHurricane],
     itemsHolder: [champion.Ezreal, champion.Nidalee, champion.Senna, champion.Yone, champion.Twitch],
     final: "/comps/xayah.png"
+  },
+  {
+    title: "lagoon sohm/Nilah",
+    early: [
+      champion.Malphite,
+      champion.Skarner,
+      champion.Kaisa,
+      champion.Taliyah,
+    ],
+    mid: [
+      champion.Malphite,
+      champion.Skarner,
+      champion.Kaisa,
+      champion.Taliyah,
+      champion.Sylas,
+      champion.Seraphine,
+      champion.Vladimir
+    ],
+    core: [fullItem.ArchangelsStaff],
+    flex: [fullItem.BlueBuff, fullItem.RabadonsDeathcap, fullItem.JeweledGauntlet],
+    itemsHolder: [champion.Nilah, champion.Seraphine, champion.Malphite, champion.Sylas],
+    final: "/comps/sohm.png"
+  },
+  {
+    title: "Mage Nomsy",
+    early: [
+      champion.Skarner,
+      champion.Sylas,
+      champion.Vladimir,
+      champion.Lux
+    ],
+    mid: [
+      champion.Skarner,
+      champion.Sylas,
+      champion.Vladimir,
+      champion.Lux,
+      champion.Nomsy
+    ],
+    core: [fullItem.ArchangelsStaff],
+    flex: [fullItem.SpearofShojin, fullItem.WarmogsArmor],
+    itemsHolder: [champion.Vladimir, champion.Skarner, champion.Sylas],
+    final: "/comps/nomsy.png"
+  },
+  {
+    title: "graves seraphine pantheon",
+    early: [
+      champion.Vladimir,
+      champion.Wukong,
+      champion.Senna,
+      champion.Qiyana
+    ],
+    mid: [
+      champion.Jax,
+      champion.Braum,
+      champion.Yone,
+      champion.Aphelios,
+      champion.Gnar,
+    ],
+    core: [fullItem.Bloodthirster],
+    flex: [fullItem.ZekesHerald, fullItem.LastWhisper, fullItem.WarmogsArmor, fullItem.TitansResolve],
+    itemsHolder: [champion.Braum, champion.Aphelios, champion.Zeri],
+    final: "/comps/graves.png"
   },
   {
     title: "mirage daeja",
@@ -2465,27 +2506,26 @@ export const compoList = [
     final: "/comps/mirage.png"
   },
   {
-    title: "olaf warrior",
+    title: "darkflight cannoneer",
     early: [
-      champion.Olaf,
-      champion.Wukong,
-      champion.Jax,
-      champion.Lillia,
-      champion.Gnar
+      champion.Rell,
+      champion.Sejuani,
+      champion.Aphelios,
+      champion.Senna
     ],
     mid: [
-      champion.Olaf,
-      champion.Sylas,
-      champion.Braum,
-      champion.Lillia,
-      champion.Pantheon,
-      champion.Diana
+      champion.Rell,
+      champion.Aphelios,
+      champion.Aphelios,
+      champion.Senna,
+      champion.Zeri,
+      champion.Rengar
     ],
-    core: [fullItem.Bloodthirster],
-    flex: [fullItem.GiantSlayer, fullItem.InfinityEdge, fullItem.TitansResolve, fullItem.HandOfJustice],
-    itemsHolder: [champion.Olaf, champion.LeeSin, champion.Nidalee, champion.Yone, champion.Sett],
-    final: "/comps/olaf.png"
+    core: [fullItem.ZekesHerald],
+    lowkey: [fullItem.LastWhisper, fullItem.EdgeofNight],
+    flex: [fullItem.GiantSlayer, fullItem.TitansResolve, fullItem.InfinityEdge],
+    itemsHolder: [champion.Aphelios, champion.Rell, champion.Graves, champion.Rengar],
+    final: "/comps/darkflight.png"
   },
-
 
 ]

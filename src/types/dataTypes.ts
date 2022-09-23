@@ -38,7 +38,7 @@ export enum champion {
   Malphite = "//cdn.lolchess.gg/upload/images/champions/Malphite_1661161013-Malphite.jpg",
   Nasus = "//cdn.lolchess.gg/upload/images/champions/Nasus_1661161028-Nasus.jpg",
   Nidalee = "//cdn.lolchess.gg/upload/images/champions/Nidalee_1653029698.png",
-  Nilah = "ddragon.leagueoflegends.com///cdn/12.16.1/img/champion/Nilah.png",
+  Nilah = "//ddragon.leagueoflegends.com/cdn/12.16.1/img/champion/Nilah.png",
   Nomsy = "//cdn.lolchess.gg/upload/images/champions/Nomsy_1661160913-Nomsy.jpg",
   Nunu = "//cdn.lolchess.gg/upload/images/champions/Nunu_1653029687.png",
   Olaf = "//cdn.lolchess.gg/upload/images/champions/Olaf_1653030240.png",

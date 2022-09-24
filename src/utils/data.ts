@@ -2485,6 +2485,27 @@ export const compoList = [
     final: "/comps/graves.png"
   },
   {
+    title: "Astral Aurelion",
+    early: [
+      champion.Skarner,
+      champion.Vladimir,
+      champion.Nidalee,
+      champion.Lux
+    ],
+    mid: [
+      champion.Skarner,
+      champion.Vladimir,
+      champion.Nidalee,
+      champion.Lux,
+      champion.Sylas,
+      champion.Varus
+    ],
+    core: [fullItem.ArchangelsStaff],
+    flex: [fullItem.SpearofShojin, fullItem.WarmogsArmor, fullItem.RabadonsDeathcap, fullItem.GiantSlayer],
+    itemsHolder: [champion.Lux, champion.Nidalee, champion.Varus],
+    final: "/comps/astral.png"
+  },
+  {
     title: "mirage daeja",
     early: [
       champion.Jax,
@@ -2522,7 +2543,6 @@ export const compoList = [
       champion.Rengar
     ],
     core: [fullItem.ZekesHerald],
-    lowkey: [fullItem.LastWhisper, fullItem.EdgeofNight],
     flex: [fullItem.GiantSlayer, fullItem.TitansResolve, fullItem.InfinityEdge],
     itemsHolder: [champion.Aphelios, champion.Rell, champion.Graves, champion.Rengar],
     final: "/comps/darkflight.png"

@@ -38,7 +38,6 @@ const CompoDeck = () => {
                     ))}
                   </div>
                 </div>
-
                 <div className="grid grid-cols-2 mt-4 gap-2">
                   <div>
                     <h5 className="mb-2 text-sm text-metallicPink">
@@ -46,19 +45,6 @@ const CompoDeck = () => {
                     </h5>
                     <div className="flex items-center gap-4 w-full flex-wrap">
                       {compo?.core?.map((item) => (
-                        <img
-                          className="object-cover w-7 h-7 md:w-15 md:h-15   rounded-3xl"
-                          src={item}
-                          alt=""
-                        />
-                      ))}
-                    </div>
-                  </div>
-
-                  <div>
-                    <h5 className="mb-2 text-sm text-metallicPink">Low key</h5>
-                    <div className="flex items-center gap-4 w-full flex-wrap">
-                      {compo?.lowkey?.map((item) => (
                         <img
                           className="object-cover w-7 h-7 md:w-15 md:h-15   rounded-3xl"
                           src={item}

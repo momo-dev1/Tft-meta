@@ -2479,9 +2479,9 @@ export const compoList = [
       champion.Aphelios,
       champion.Gnar,
     ],
-    core: [fullItem.Bloodthirster],
-    flex: [fullItem.ZekesHerald, fullItem.LastWhisper, fullItem.WarmogsArmor, fullItem.TitansResolve],
-    itemsHolder: [champion.Braum, champion.Aphelios, champion.Zeri],
+    core: [fullItem.Morellonomicon],
+    flex: [fullItem.SpearofShojin, fullItem.ZekesHerald, fullItem.WarmogsArmor, fullItem.TitansResolve],
+    itemsHolder: [champion.Kaisa, champion.Aphelios, champion.Zeri],
     final: "/comps/graves.png"
   },
   {
@@ -2526,26 +2526,26 @@ export const compoList = [
     itemsHolder: [champion.Karma, champion.Kaisa, champion.LeeSin, champion.Lillia, champion.Yone,],
     final: "/comps/mirage.png"
   },
-  {
-    title: "darkflight cannoneer",
-    early: [
-      champion.Rell,
-      champion.Sejuani,
-      champion.Aphelios,
-      champion.Senna
-    ],
-    mid: [
-      champion.Rell,
-      champion.Aphelios,
-      champion.Aphelios,
-      champion.Senna,
-      champion.Zeri,
-      champion.Rengar
-    ],
-    core: [fullItem.ZekesHerald],
-    flex: [fullItem.GiantSlayer, fullItem.TitansResolve, fullItem.InfinityEdge],
-    itemsHolder: [champion.Aphelios, champion.Rell, champion.Graves, champion.Rengar],
-    final: "/comps/darkflight.png"
-  },
+  // {
+  //   title: "darkflight cannoneer",
+  //   early: [
+  //     champion.Rell,
+  //     champion.Sejuani,
+  //     champion.Aphelios,
+  //     champion.Senna
+  //   ],
+  //   mid: [
+  //     champion.Rell,
+  //     champion.Aphelios,
+  //     champion.Aphelios,
+  //     champion.Senna,
+  //     champion.Zeri,
+  //     champion.Rengar
+  //   ],
+  //   core: [fullItem.ZekesHerald],
+  //   flex: [fullItem.GiantSlayer, fullItem.TitansResolve, fullItem.InfinityEdge],
+  //   itemsHolder: [champion.Aphelios, champion.Rell, champion.Graves, champion.Rengar],
+  //   final: "/comps/darkflight.png"
+  // },
 
 ]
